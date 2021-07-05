@@ -61,7 +61,7 @@ public class UI {
 	
 	private static void printPiece(ChessPiece piece) {
 		if (piece == null) {
-			System.out.print("-");
+			System.out.print("-" + ANSI_RESET);
 		}
 		else {
 			System.out.print(piece);
